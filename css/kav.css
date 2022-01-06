@@ -112,6 +112,8 @@ footer{
 
 .tesst{
 	flex: 50%;
+	text-align: center;
+
 }
 #info_container{
 	display: flex;
@@ -119,10 +121,7 @@ footer{
 }
 
 @media(max-width: 800px){
-	.tesst{
-		flex: 100%;
-	}
-	
+
 	.img_item {
 		flex: 50%;
 	}
@@ -133,9 +132,11 @@ footer{
 	#info_container{
 	flex-wrap: wrap;
 	}
-	#rautang1{
-		max-width: 40%;
+
+	.tesst{
+	width: 50%;
+	
+
 	}
+	
 }
-
-
