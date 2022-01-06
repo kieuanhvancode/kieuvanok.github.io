@@ -132,7 +132,10 @@ footer{
 	}
 	#info_container{
 	flex-wrap: wrap;
-				}
+	}
+	#rautang1{
+		max-width: 40%;
+	}
 }
 
 
